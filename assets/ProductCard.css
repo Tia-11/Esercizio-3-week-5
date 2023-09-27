@@ -1,0 +1,47 @@
+.contenitore {
+  background-color: rgb(251, 247, 227);
+  height: 45em;
+  width: 35em;
+  margin-left: 3em;
+  margin-top: 3em;
+  border-radius: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-image: url(../assets/imgs/honey.jpg);
+  background-repeat: no-repeat;
+  background-size: auto 30em;
+  background-position: top;
+}
+
+.scritte {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.scritte p {
+  font-size: 2em;
+  color: brown;
+  margin-left: 1.8em;
+  margin-right: 1.8em;
+  margin-bottom: 1em;
+}
+
+span {
+  font-weight: bold;
+}
+
+.carrello {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  padding: 1.5em;
+  background-color: yellow;
+  color: brown;
+  margin-bottom: 1em;
+  border-radius: 20%;
+  width: 14em;
+}
